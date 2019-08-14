@@ -87,6 +87,24 @@ body {
     color: var(--fourth-color);
 }
 
+.section-list {
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
+
+.section a {
+    color: var(--second-color);
+    text-decoration: none;
+    -webkit-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.section a:hover {
+    color: var(--fourth-color);
+    text-decoration: underline;
+}
+
 /* footer */
 .footer-wrapper {
     padding: 2rem 0;

@@ -1,1 +1,5 @@
-console.log('JS file work');
+const init = () => {
+    console.log("Hello World!");
+};
+
+document.addEventListener("DOMContentLoaded", init);

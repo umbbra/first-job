@@ -1,158 +1,231 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pierwsza praca w IT</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <script src="js/code.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="header-wrapper wrapper">
-            <div class="info-wrapper">
-                <h1 class="main-header">Pierwsza praca w IT</h1>
-                <p class="header-paragraph">
-                    Cześć! Właśnie trafiłeś/aś na stronę, która jest projektem open source
-                    (
-                    <a href="https://github.com/umbbra/first-job" target="_blank" title="Projekt na GitHub">
-                        <span class="fab fa-github-alt" aria-hidden="true"></span>
-                        <span class="sr-only">Projekt na GitHub</span>
-                    </a>
-                    )
-                    mającym za zadanie zebranie w jednym miejscu wskazówek dotyczących szukania pracy jako junior: developer lub tester.
-                </p>
-            </div>
-            <!-- <div class="search">
-                <label for="search">
-                    <span class="fas fa-search"></span>
-                    Wyszukaj na stronie
-                </label>
-                <input type="search" id="search" />
-            </div> -->
-            <nav>
-                <ul class="menu">
-                    Spis treści:
-                    <li>
-                        <a href="#general">Porady dotyczące szukania pracy</a>
-                    </li>
-                    <li>
-                        <a href="#cv">Porady dotyczące CV</a>
-                    </li>
-                    <li>
-                        <a href="#linkedin">Porady dotyczące LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="#work">Portale z ofertami pracy</a>
-                    </li>
-                    <li>
-                        <a href="#recruitment">Porady dotyczące rozmowy kwalifikacyjnej</a>
-                    </li>
-                    <li>
-                        <a href="#questions">Pytania rekrutacyjne</a>
-                    </li>
-                    <li>
-                        <a href="#groups">Grupy wsparcia</a>
-                    </li>
-                </ul>
-            </nav>
+      <div class="header-wrapper wrapper">
+        <div class="info-wrapper">
+          <h1 class="main-header">Pierwsza praca w IT</h1>
+          <p class="header-paragraph">
+            Cześć! Właśnie trafiłeś/aś na stronę, która jest projektem open
+            source (
+            <a
+              href="https://github.com/umbbra/first-job"
+              target="_blank"
+              title="Projekt na GitHub"
+            >
+              <span class="fab fa-github-alt" aria-hidden="true"></span>
+              <span class="sr-only">Projekt na GitHub</span>
+            </a>
+            ) mającym za zadanie zebranie w jednym miejscu wskazówek dotyczących
+            szukania pracy jako junior: developer lub tester.
+          </p>
         </div>
-    </header>
+        
+        <nav>
+          <ul class="menu">
+            Spis treści:
+            <li>
+              <a href="#general">Porady dotyczące szukania pracy</a>
+            </li>
+            <li>
+              <a href="#cv">Porady dotyczące CV</a>
+            </li>
+            <li>
+              <a href="#linkedin">Porady dotyczące LinkedIn</a>
+            </li>
+            <li>
+              <a href="#work">Portale z ofertami pracy</a>
+            </li>
+            <li>
+              <a href="#recruitment"
+                >Porady dotyczące rozmowy kwalifikacyjnej</a
+              >
+            </li>
+            <li>
+              <a href="#questions">Pytania rekrutacyjne</a>
+            </li>
+            <li>
+              <a href="#groups">Grupy wsparcia</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="search">
+            <label for="search">
+                <span class="fas fa-search"></span>
+                Wyszukaj na stronie
+            </label>
+            <input type="search" id="search" />
+          
+            <div class="searchText wrapper"></div>
+        </div>
+
+      </div>
+  </header>
+
     <main>
-        <section class="general section" id="general">
-            <div class="general-wrapper wrapper">
-                <h2 class="second-header">Porady dotyczące szukania pracy</h2>
-                <p class="section-paragraph">
-                    <!-- tutaj dodaj swój tekst -->
-                </p>
-                <p class="section-paragraph">
-                  Nikt nie odpisuje ani nie oddzwania? Warto na rozmowie czy w wysłanym mailu zaznaczyć, że oczekuje się informacji zwrotnej oraz <u>przypominać</u> się, jeśli takowej się nie otrzymuje. 
-                </p>
-            </div>
-        </section>
-        <section class="cv section" id="cv">
-            <div class="cv-wrapper wrapper">
-                <h2 class="second-header">Porady dotyczące CV</h2>
-                <p class="section-paragraph">
-                    <!-- tutaj dodaj swój tekst -->
-                </p>
-            </div>
-        </section>
-        <section class="linkedin section" id="linkedin">
-            <div class="linkedin-wrapper wrapper">
-                <h2 class="second-header">Porady dotyczące LinkedIn</h2>
-                <p class="section-paragraph">
-                    <!-- tutaj dodaj swój tekst -->
-                </p>
-                <p class="section-paragraph">
-                   Aby zwiększyć ilość wyświetleń Twojego profilu przez rekruterów na LinkedIn dodaj "słowa klucze" w nagłówek pod swoim zdjęciem. Jest to miejsce, gdzie najczęściej sprawdzają kandydatów.
-                </p>
-            </div>
-        </section>
-        <section class="work section" id="work">
-            <div class="work-wrapper wrapper">
-                <h2 class="second-header">Portale z ofertami pracy</h2>
-                <ul class="section-list">
-                    <li>
-                        <a href="https://justjoin.it/" target="_blank">justjoin.it</a>
-                    </li>
-                    <li>
-                        <a href="https://nofluffjobs.com/" target="_blank">nofluffjobs</a>
-                    </li>
-                    <li>
-                        <a href="https://bulldogjob.pl/companies/jobs" target="_blank">bulldogjob</a>
-                    </li>
-                    <li>
-                        <a href="https://www.pracuj.pl/" target="_blank">pracuj.pl</a>
-                    </li>
-                    <li>
-                        <a href="https://pl.indeed.com/" target="_blank">indeed.com</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="recruitment section" id="recruitment">
-            <div class="recruitment-wrapper wrapper">
-                <h2 class="second-header">Porady dotyczące rozmowy kwalifikacyjnej</h2>
-                <p class="section-paragraph">
-                    <!-- tutaj dodaj swój tekst -->
-                </p>
-                <p class="section-paragraph">
-                  Strona do poćwiczenia umiejętności przed przystąpieniem do rozmowy rekrutacyjnej: <a href="https://www.codility.com/">Codility.com</a> 
-                </p>
-                <p class="section-paragraph">
-                  Nikt nie oczekuje, abyś odpowiadał na każde pytanie, bardzo duże znaczenie ma Twój sposób myślenia i nie poddawanie się. Jeśli czegoś nie rozumiesz, to warto powiedzieć o tym wprost. Jeżeli zadanie, które masz do wykonania jest trudne i wiesz jak wykonać je w pewnej części - zaproponuj, aby wykonać zadanie wspólnie. To jest informacja, że coś wiesz i jeżeli dostaniesz kilka rad, to zapewne zrobisz zadanie.
-                </p>
-            </div>
-        </section>
-        <section class="questions section" id="questions">
-            <div class="questions-wrapper wrapper">
-                <h2 class="second-header">Pytania rekrutacyjne</h2>
-                <p class="section-paragraph">
-                    <!-- tutaj dodaj swój tekst -->
-                </p>
-            </div>
-        </section>
-        <section class="groups section" id="groups">
-            <div class="groups-wrapper wrapper">
-                <h2 class="second-header">Grupy wsparcia</h2>
-                <p class="section-paragraph">
-                    <!-- tutaj dodaj swój tekst -->
-                </p>
-            </div>
-        </section>
+      <section class="general section" id="general">
+        <div class="general-wrapper wrapper">
+          <h2 class="second-header">Porady dotyczące szukania pracy</h2>
+          <ol>
+            <li>
+              <p class="section-paragraph">
+              Nikt nie odpisuje ani nie oddzwania? Warto na rozmowie czy w
+              wysłanym mailu zaznaczyć, że oczekuje się informacji zwrotnej oraz
+              <u>przypominać</u> się, jeśli takowej się nie otrzymuje.
+            </p>
+            </li>
+
+             <!-- 
+            <li>
+              <p class="section-paragraph"> tutaj dodaj swój tekst </p>
+            </li> 
+          -->
+          </ol>
+        </div>
+      </section>
+      <section class="cv section" id="cv">
+        <div class="cv-wrapper wrapper">
+          <h2 class="second-header">Porady dotyczące CV</h2>
+          <ol>
+             <!-- 
+            <li>
+              <p class="section-paragraph"> tutaj dodaj swój tekst </p>
+            </li> 
+          -->
+          </ol>
+        </div>
+      </section>
+      <section class="linkedin section" id="linkedin">
+        <div class="linkedin-wrapper wrapper">
+          <h2 class="second-header">Porady dotyczące LinkedIn</h2>
+          <ol>
+            <!-- 
+            <li>
+              <p class="section-paragraph"> tutaj dodaj swój tekst </p>
+            </li> 
+          -->
+            <li>
+              <p class="section-paragraph">
+              Aby zwiększyć ilość wyświetleń Twojego profilu przez rekruterów na
+              LinkedIn dodaj "słowa klucze" w nagłówek pod swoim zdjęciem. Jest
+              to miejsce, gdzie najczęściej sprawdzają kandydatów.
+            </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="work section" id="work">
+        <div class="work-wrapper wrapper">
+          <h2 class="second-header">Portale z ofertami pracy</h2>
+          <ul class="section-list">
+            <li>
+              <a href="https://justjoin.it/" target="_blank">justjoin.it</a>
+            </li>
+            <li>
+              <a href="https://nofluffjobs.com/" target="_blank">nofluffjobs</a>
+            </li>
+            <li>
+              <a href="https://bulldogjob.pl/companies/jobs" target="_blank"
+                >bulldogjob</a
+              >
+            </li>
+            <li>
+              <a href="https://www.pracuj.pl/" target="_blank">pracuj.pl</a>
+            </li>
+            <li>
+              <a href="https://pl.indeed.com/" target="_blank">indeed.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="recruitment section" id="recruitment">
+        <div class="recruitment-wrapper wrapper">
+          <h2 class="second-header">
+            Porady dotyczące rozmowy kwalifikacyjnej
+          </h2>
+          <ol>
+            <li>
+              <p class="section-paragraph">Strona do poćwiczenia umiejętności przed przystąpieniem do rozmowy
+              rekrutacyjnej:
+              <a href="https://www.codility.com/">Codility.com</a>
+              </p>
+            </li>
+            <li>
+              <p class="section-paragraph">
+              Nikt nie oczekuje, abyś odpowiadał na każde pytanie, bardzo duże
+              znaczenie ma Twój sposób myślenia i nie poddawanie się. Jeśli
+              czegoś nie rozumiesz, to warto powiedzieć o tym wprost. Jeżeli
+              zadanie, które masz do wykonania jest trudne i wiesz jak wykonać
+              je w pewnej części - zaproponuj, aby wykonać zadanie wspólnie. To
+              jest informacja, że coś wiesz i jeżeli dostaniesz kilka rad, to
+              zapewne zrobisz zadanie.
+              </p>
+            </li>
+
+            <!-- 
+            <li>
+              <p class="section-paragraph"> tutaj dodaj swój tekst </p>
+            </li> 
+          -->
+          </ol>
+        </div>
+      </section>
+      <section class="questions section" id="questions">
+        <div class="questions-wrapper wrapper">
+          <h2 class="second-header">Pytania rekrutacyjne</h2>
+          <ol>
+            <!-- 
+            <li>
+              <p class="section-paragraph"> tutaj dodaj swój tekst </p>
+            </li> 
+          -->
+          </ol>
+        </div>
+      </section>
+      <section class="groups section" id="groups">
+        <div class="groups-wrapper wrapper">
+          <h2 class="second-header">Grupy wsparcia</h2>
+          <ol>
+            <!-- 
+            <li>
+              <p class="section-paragraph"> tutaj dodaj swój tekst </p>
+            </li> 
+          -->
+          </ol>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer-wrapper wrapper">
-            <a href="https://github.com/umbbra/first-job" target="_blank" title="Projekt na GitHub">
-                <span class="fab fa-github-alt" aria-hidden="true"></span>
-                <span class="sr-only">Projekt na GitHub</span>
-            </a>
-        </div>
+      <div class="footer-wrapper wrapper">
+        <a
+          href="https://github.com/umbbra/first-job"
+          target="_blank"
+          title="Projekt na GitHub"
+        >
+          <span class="fab fa-github-alt" aria-hidden="true"></span>
+          <span class="sr-only">Projekt na GitHub</span>
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
